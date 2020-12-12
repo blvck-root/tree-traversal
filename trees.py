@@ -19,3 +19,23 @@ class Tree:
 
     def is_leaf(self):
         return not self.branches
+
+def bfs(tree, item):
+    """Return search item and nodes visited.
+
+    Uses the breadth-first search algorithm to find an item in the tree set.
+    Returns -1 if item not found and a list of all nodes visited before the
+    search concluded.
+    """
+    # TODO: write bfs code here
+
+
+def dfs(tree, item):
+    """Return search item and nodes visited.
+
+    Uses the depth-first search algorithm to find an item in the tree set.
+    Returns -1 if item not found and a list of all nodes visited before the
+    search concluded.
+    """
+    # TODO: write dfs code here
+
